@@ -56,7 +56,7 @@ public class LeapYearCalculatorTest extends TestCase {
     }
 
     // Test Number: 5
-    // Objective: Determine whether a year is a leap year or not with a Valid Year divisible by 100
+    // Objective: Determine whether a year is a leap year or not with a Valid Year Divisible by 100
     // Input(s): 1900
     // Expected Output: false
     public void testLeapYear005() {
@@ -69,20 +69,20 @@ public class LeapYearCalculatorTest extends TestCase {
     }
 
     // Test Number: 6
-    // Objective: Determine whether a year is a leap year or not with a Valid Year divisible by 4
+    // Objective: Determine whether a year is a leap year or not with a Valid Year Divisible by 4
     // Input(s): 1980
-    // Expected Output: false
+    // Expected Output: true
     public void testLeapYear006() {
         try {
             boolean actualResult = testObj.isLeapYear(1980);
-            assertFalse(actualResult);
+            assertTrue(actualResult);
         } catch (LeapYearExceptionHandler e) {
             fail("No exception should be thrown");
         }
     }
 
     // Test Number: 7
-    // Objective: Determine whether a year is a leap year or not with a Valid Year divisible by 400
+    // Objective: Determine whether a year is a leap year or not with a Valid Year Divisible by 400
     // Input(s): 2000
     // Expected Output: true
     public void testLeapYear007() {
