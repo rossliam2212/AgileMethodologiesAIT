@@ -12,6 +12,7 @@ All my work from my second year Agile Methodologies module in AIT.
 - [Week 8](#week-8)
 - [Week 9](#week-9)
 - [Weel 10](#week-10)
+- [Weel 11](#week-11)
 
 ### Week 1
 - Introduction.
@@ -33,7 +34,7 @@ All my work from my second year Agile Methodologies module in AIT.
 
 
 ### Week 3
-- Assignment work.
+- Assignment 1 work.
 
 ### Week 4
 [src](https://github.com/rossliam2212/AgileMethodologiesAIT/tree/master/Week%204)
@@ -294,4 +295,19 @@ class GraderTest {
 
 }
 ```
+### Week 11
 
+[src](https://github.com/rossliam2212/AgileMethodologiesAIT/tree/master/Assignment%202/Code-Assignment)
+
+#### Assignment 2:
+A year with 366 days is called a leap year. A year is a leap year if it is divisible by 4 (e.g. 1980). However, since the introduction of the Gregorian calendar on October 15, 1582, a year is not a leap year if it is divisible by 100 (e.g. 1900); however, it is a leap year if it is divisible by 400 (e.g. 2000). Write a method that computes whether a year is a leap year or not.
+
+##### Follow The Procedure:
+- Develop the user story.
+- Create git repository for the project.
+- Create product skeleton.
+- Version control your product skeleton and test code.
+- Design, implement, and execute Junit tests.
+- Write product code.
+- Execute all unit tests until they all pass.
+- Version control product code.
